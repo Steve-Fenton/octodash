@@ -5,7 +5,8 @@
     "action": {},
     "manifest_version": 3,
     "icons": {
-        "500": "icon.png"
+        "128": "icon-128.png",
+        "500": "icon-500.png"
     },
 	"background": {
         "service_worker": "octodash.js"
