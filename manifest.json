@@ -1,0 +1,17 @@
+{
+    "name": "Octodash", 
+    "version": "0.0.1.0",
+    "description": "Highlights version numbers in the Octopus Deploy dashboard.",
+    "action": {},
+    "manifest_version": 3,
+    "icons": {
+        "500": "icon.png"
+    },
+	"background": {
+        "service_worker": "octodash.js"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+     ]
+}
