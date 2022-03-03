@@ -12,7 +12,6 @@
         "service_worker": "octodash.js"
     },
     "permissions": [
-        "activeTab",
         "scripting"
      ]
 }
