@@ -1,6 +1,6 @@
 {
     "name": "Octodash", 
-    "version": "0.0.2.0",
+    "version": "0.0.3.0",
     "description": "Highlights version numbers in the Octopus Deploy dashboard.",
     "action": {},
     "manifest_version": 3,
@@ -12,6 +12,7 @@
         "service_worker": "octodash.js"
     },
     "permissions": [
-        "scripting"
+        "scripting",
+        "activeTab"
      ]
 }
