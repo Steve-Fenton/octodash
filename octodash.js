@@ -3,7 +3,7 @@ const colouring = function () {
     var nextColorIndex = 0;
     var versions = [];
 
-    var elems = document.querySelectorAll('[class^=style_version__');
+    var elems = document.querySelectorAll('span[class^="style-module_version__"]');
     console.log(`Octodash found ${elems.length} items`);
 
     for (var i = 0; i < elems.length; i++) {
