@@ -3,7 +3,8 @@ const colouring = function () {
     var nextColorIndex = 0;
     var versions = [];
 
-    var elems = document.querySelectorAll('a[class^="style-module_internalLink__"] > div > div > span[title]');
+    // Octopus v2025.4.1297
+    var elems = document.querySelectorAll('table > tbody > tr > td > div > a > div > div > span');
     console.log(`Octodash found ${elems.length} items`);
 
     for (var i = 0; i < elems.length; i++) {
