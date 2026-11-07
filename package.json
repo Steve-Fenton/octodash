@@ -1,0 +1,9 @@
+{
+    "name": "octodash",
+    "version": "0.0.0.1",
+    "description": "Highlights version numbers in the Octopus Deploy dashboard.",
+    "type": "module",
+    "scripts": {
+        "package": "mkdir -p dist && zip dist/octodash-$(node -p \"JSON.parse(fs.readFileSync('manifest.json')).version\").zip octodash.js manifest.json LICENSE icon-128.png icon-500.png"
+    }
+}
